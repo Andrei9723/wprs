@@ -1,10 +1,11 @@
-<html>
-<head>
-<title>Tutorial theme</title>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+<!DOCTYPE html><html>	
+<head>		
+<meta charset="utf-8">	
+	<title> XMLFomatter</title>
+	
+	<body>
+	
+	</body>
+			<?php wp_head(); ?>	
 </head>
-<body>
-<div id="wrapper">
-<div id="header">
-<h1>HEADER</h1>
-</div>
+	
