@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Aboutapp
+Template Name: Slider
 */
 ?>
 <?php  get_header();?> 

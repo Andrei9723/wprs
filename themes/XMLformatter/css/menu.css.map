@@ -1,6 +1,10 @@
 {
 "version": 3,
+<<<<<<< HEAD
 "mappings": "AAAA,OAAQ;EAEP,UAAU,EAAE,GAAG;;AAGhB,gBAAgB;EACf,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,UAAW;EACpB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK",
+=======
+"mappings": "AAAA,OAAQ;EAEP,UAAU,EAAE,GAAG;;AAEhB,gBAAgB;EACf,OAAO,EAAE,QAAQ;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK",
+>>>>>>> 088bb53fe9e62de2e340827daa6e31db7cb9e5f7
 "sources": ["../scss/menu.scss"],
 "names": [],
 "file": "menu.css"
