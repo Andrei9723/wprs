@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php  get_header(); 
 echo 'Front-Page';
 ?>
@@ -19,3 +20,20 @@ echo 'Front-Page';
 
 </body>
 <?php get_footer(); ?>
+=======
+<?php  get_header();?> 
+
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		<h1><?php the_title(); ?></h1>
+		<h4>Posted on <?php the_time('F jS, Y') ?></h4>
+		<p><?php the_content(__('(more...)')); ?></p>
+
+	<hr><?php endwhile; else: ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
+</div>
+	<?php get_sidebar(); ?>
+</div>
+	<div id="delimiter">
+	</div>
+	<?php get_footer(); ?>
+>>>>>>> adcb4970c3060f2a2bc135dcefb9f52720e9f76e

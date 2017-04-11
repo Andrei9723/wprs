@@ -1,5 +1,8 @@
-<?php function awesome_script_enqueue() {	
-	wp_enqueue_style('customstyle',get_template_directory_uri() . '/Library/Foundation/css/foundation.css', array(),'1.0.0','all');
+<?php 
+include_once __DIR__ . '/Custom-Functions/shortcodes-Alex.php';
+
+function awesome_script_enqueue() {	
+	wp_enqueue_style('customstyle',get_template_directory_uri() . '/Library/Foundation/css/foundation.min.css', array(),'1.0.0','all');
 	wp_enqueue_style('customstyle',get_template_directory_uri() . '/Library/Foundation/css/normalize.css', array(),'1.0.0','all');
     wp_enqueue_style('customscript',get_template_directory_uri() . '/Library/Foundation/js/vendor/foundation.js', array(),'1.0.0','all');
     wp_enqueue_style('customscript',get_template_directory_uri() . '/Library/Foundation/js/vendor/jquery.js', array(),'1.0.0','all');
@@ -10,8 +13,12 @@
 
 	add_action('wp_enqueue_scripts', 'awesome_script_enqueue');
 
+<<<<<<< HEAD
 	//Navigation Menus
 	register_nav_menus(array(
 		'primary' => __('Primary Menu'),
 		'footer' => __('Footer Menu'),
 		));
+=======
+add_theme_support( 'post-thumbnails' ); 
+>>>>>>> adcb4970c3060f2a2bc135dcefb9f52720e9f76e
