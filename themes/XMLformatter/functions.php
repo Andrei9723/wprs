@@ -13,12 +13,12 @@ function awesome_script_enqueue() {
 
 	add_action('wp_enqueue_scripts', 'awesome_script_enqueue');
 
-<<<<<<< HEAD
+
 	//Navigation Menus
 	register_nav_menus(array(
 		'primary' => __('Primary Menu'),
 		'footer' => __('Footer Menu'),
 		));
-=======
+
 add_theme_support( 'post-thumbnails' ); 
->>>>>>> adcb4970c3060f2a2bc135dcefb9f52720e9f76e
+
