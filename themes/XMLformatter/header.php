@@ -3,14 +3,14 @@
 <?php wp_head(); ?>		
 <meta charset="utf-8">	
 	<title> XMLFomatter</title>
-<<<<<<< HEAD
+<nav>
+	<div class="menu-centered spacem ">
+	  <ul class="menu align-center ">
+	<li><h2><?php wp_nav_menu ($args); ?></h2></li>
+	</ul>
+	</div>
+</nav>
 
-=======
-	
-	<body>
- 
-	</body>
-		
->>>>>>> adcb4970c3060f2a2bc135dcefb9f52720e9f76e
+
 </head>
 	
