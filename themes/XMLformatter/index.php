@@ -1,4 +1,3 @@
-<?php get_header();
-echo 'index.php'; ?>
-
+<?php get_header();?>
+<p><?php the_content(__('(more...)')); ?></p>
 <?php get_footer(); ?>
