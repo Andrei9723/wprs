@@ -2,7 +2,7 @@
   background: red; }
 
 .spacem ul li h2 {
-  position: fixed;
+  position: relative;
   padding: 0rem 25rem;
   font-style: italic;
   color: white; }

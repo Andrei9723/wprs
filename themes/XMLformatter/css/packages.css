@@ -1,0 +1,14 @@
+.border {
+  border-width: 1px;
+  border-color: black; }
+
+.dashed {
+  border-style: dashed; }
+
+.double {
+  border-style: double; }
+
+.single {
+  border-style: single; }
+
+/*# sourceMappingURL=packages.css.map */
