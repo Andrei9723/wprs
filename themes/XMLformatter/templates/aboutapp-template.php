@@ -10,9 +10,6 @@ Template Name: Aboutapp
 
 	<hr><?php endwhile; else: ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
-</div>
-	<?php get_sidebar(); ?>
-</div>
-	<div id="delimiter">
-	</div>
+
+
 	<?php get_footer(); ?>
