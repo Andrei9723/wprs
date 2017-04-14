@@ -4,8 +4,10 @@ Template Name: Aboutapp
 */
 ?>
 <?php  get_header();?> 
-
+	<hr>
+<h2 align="center" class="app">About application</h2>
 <body class="clr">
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<?php the_content(__('(more...)')); ?>
 
