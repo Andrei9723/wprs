@@ -31,9 +31,22 @@
   padding-top: 2rem;
   padding-right: 2rem;
   padding-left: 2rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  font-family: Lucida; }
 
 h2.app {
   font-family: Lucida; }
+
+img.floatLeft {
+  float: left;
+  padding: 0rem;
+  margin-left: 3rem;
+  margin-right: 3rem; }
+
+img.floatRight {
+  float: right;
+  padding: 0rem;
+  margin-left: 3rem;
+  margin-right: 3rem; }
 
 /*# sourceMappingURL=menu.css.map */

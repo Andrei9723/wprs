@@ -4,7 +4,7 @@ Template Name: Aboutapp
 */
 ?>
 <?php  get_header();?> 
-	<hr>
+	<br><br>
 <h2 align="center" class="app">About application</h2>
 <body class="clr">
 
@@ -23,5 +23,6 @@ Template Name: Aboutapp
 	</div> -->
 
 </div>
+
 </body>
 	<?php get_footer(); ?>
