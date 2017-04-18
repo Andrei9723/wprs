@@ -4,7 +4,7 @@ Template Name: Packages
 */
 ?>
 <?php  get_header();?> 
-
+<body class="clr">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<?php the_content(__('(more...)')); ?>
@@ -25,7 +25,7 @@ Template Name: Packages
 		<li class="title">Pro</li>
 		<li class="price">$49.99</li>
 		<li class="description">Best Deal</li>
-		<li>42 Rad Features</li>
+		<li>- 42 Rad Features</li>
 		<li>10GB of Storage</li>
 		<li><a class="button" href="#">Buy Now</a></li>
 	</ul>
@@ -40,7 +40,7 @@ Template Name: Packages
 </div>
 
 
-
+</body>
 
 
 

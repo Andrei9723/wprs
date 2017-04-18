@@ -1,17 +1,17 @@
 .spacem {
-  background: cornflowerblue; }
+  background: #666666; }
 
 .spacem ul li h2 a {
   position: relative;
   padding: 0px 25px;
   font-family: Lucida;
   text-decoration: none;
-  color: #FFFFFF;
+  color: black;
   list-style: none; }
 
 .spacem ul li h2 a:hover {
-  background-color: #FFFFFF;
-  color: cornflowerblue;
+  background-color: black;
+  color: red;
   border-radius: 4rem; }
 
 .pad {
@@ -21,11 +21,11 @@
 
 .align {
   text-align: center;
-  color: pink;
+  color: red;
   font-family: Lucida; }
 
 .clr {
-  background-color: pink; }
+  background-color: #ababab; }
 
 .tbl {
   padding-top: 2rem;
