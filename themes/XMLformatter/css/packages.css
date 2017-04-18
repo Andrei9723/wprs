@@ -7,7 +7,8 @@
   border: solid 1px #cacaca;
   width: 100%;
   text-align: center;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-top: 6.7rem; }
 
 .pricing-table li {
   border-bottom: dotted 1px #cacaca;
@@ -31,6 +32,6 @@
   font-size: 80%; }
 
 .pricing-table :last-child {
-  margin-bottom: 0; }
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=packages.css.map */

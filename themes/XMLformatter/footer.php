@@ -1,22 +1,8 @@
 		<footer class="footer-basic-centered">
 
-			<p class="footer-company-motto">The company motto.</p>
+			<p class="footer-company-motto">XMLformatter , it's as simple as that!</p>
 
-			<p class="footer-links">
-				<a href="#">Home</a>
-				·
-				<a href="#">Blog</a>
-				·
-				<a href="#">Pricing</a>
-				·
-				<a href="#">About</a>
-				·
-				<a href="#">Faq</a>
-				·
-				<a href="#">Contact</a>
-			</p>
-
-			<p class="footer-company-name">Company Name &copy; 2015</p>
+			<p class="footer-company-name">RussMediaTech &copy; 2017</p>
 
 		</footer>
 <div class="status"></div>
