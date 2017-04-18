@@ -4,14 +4,6 @@ Template Name: Packages
 */
 ?>
 <?php  get_header();?> 
-<body class="clr">
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-		<?php the_content(__('(more...)')); ?>
-
-	<hr><?php endwhile; else: ?>
-<p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
-
 <div class="tot">
 	<ul class="pricing-table">
 		<li class="title">Lite</li>
@@ -38,12 +30,13 @@ Template Name: Packages
 	  <li><a class="button" href="#">Buy Now</a></li>
 	</ul>
 </div>
-
-
 </body>
 
+<body class="clr">
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
+		<?php the_content(__('(more...)')); ?>
 
-
-
+	<hr><?php endwhile; else: ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
 <?php get_footer(); ?>
