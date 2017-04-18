@@ -7,7 +7,7 @@
 
 	
 	  	<div class="menu-centered spacem inner-wrap " >
-	  	<img src="http://local.xmlformater.ro/wp-content/uploads/2017/04/logo.png" width="270rem" height="10%" class="logo">
+	  	<img src="http://local.xmlformater.ro/wp-content/uploads/2017/04/logo-1024x172-2-300x50-1.png" width="270rem" height="10%" class="logo">
 	  		<ul class="menu align-center " > 	
 
 				<li><h2><?php wp_nav_menu ($args); ?></h2></li>
