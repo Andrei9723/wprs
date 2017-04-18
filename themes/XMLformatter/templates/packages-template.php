@@ -4,7 +4,10 @@ Template Name: Packages
 */
 ?>
 <?php  get_header();?> 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2100f5e79d989815f297c9b0433de322b70a9ce6
 <body class="clr">
 <div class="tot">
 	<ul class="pricing-table">
