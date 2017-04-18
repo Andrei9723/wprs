@@ -4,8 +4,12 @@
 <meta charset="utf-8">	
 	<title> XMLFomatter</title>
 <nav >
-	<div class="menu-centered spacem inner-wrap " >
-	  		<ul class="menu align-center " >
+
+	
+	  	<div class="menu-centered spacem inner-wrap " >
+	  	<img src="http://local.xmlformater.ro/wp-content/uploads/2017/04/logo.png" width="270rem" height="10%" class="logo">
+	  		<ul class="menu align-center " > 	
+
 				<li><h2><?php wp_nav_menu ($args); ?></h2></li>
 			</ul>
 	<!-- <div class="menu-centered spacem ">
@@ -15,8 +19,9 @@
 	    <li><h2><a href="#">Package</a></h2></li>
 	  
 	</ul> -->
-	</div>
+
 	
+	</div>
 </nav>
 
 

@@ -49,4 +49,9 @@ img.floatRight {
   margin-left: 3rem;
   margin-right: 3rem; }
 
+.logo {
+  display: inline-flex;
+  position: relative;
+  background: transparent; }
+
 /*# sourceMappingURL=menu.css.map */
