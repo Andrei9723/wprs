@@ -1,14 +1,11 @@
-.xmlbanner {
-  height: -100px; }
-
 .tot {
   display: inline-flex;
-  width: 100%; }
+  width: 99%; }
 
 .pricing-table {
   background-color: #fefefe;
   border: solid 1px #cacaca;
-  width: 35rem;
+  width: 100%;
   text-align: center;
   list-style-type: none; }
 

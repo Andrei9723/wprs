@@ -25,7 +25,7 @@ Template Name: Packages
 		<li class="title">Pro</li>
 		<li class="price">$49.99</li>
 		<li class="description">Best Deal</li>
-		<li>- 42 Rad Features</li>
+		<li>42 Rad Features</li>
 		<li>10GB of Storage</li>
 		<li><a class="button" href="#">Buy Now</a></li>
 	</ul>
