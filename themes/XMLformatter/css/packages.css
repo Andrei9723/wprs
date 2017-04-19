@@ -1,7 +1,7 @@
 .tot {
   display: inline-flex;
   width: 99%;
-  margin-bottom: 17.35rem; }
+  margin-bottom: 19.89rem; }
 
 .pricing-table {
   border-radius: 2px;
@@ -45,5 +45,8 @@
 
 .button:hover, .button:focus {
   background-color: red; }
+
+.storage {
+  font-size: 1rem; }
 
 /*# sourceMappingURL=packages.css.map */
