@@ -4,6 +4,7 @@
   margin-bottom: 17.35rem; }
 
 .pricing-table {
+  border-radius: 2px;
   box-shadow: 10px 10px 5px #888888;
   background-color: #fefefe;
   border: solid 1px #cacaca;
@@ -20,6 +21,8 @@
   border-bottom: 0; }
 
 .pricing-table .title {
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
   background-color: #0a0a0a;
   color: #fefefe;
   border-bottom: 0;
@@ -38,7 +41,9 @@
   margin-bottom: 0px; }
 
 .button {
-  height: 100%;
   width: 100%; }
+
+.button:hover, .button:focus {
+  background-color: red; }
 
 /*# sourceMappingURL=packages.css.map */

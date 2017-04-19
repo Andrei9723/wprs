@@ -7,13 +7,21 @@ Template Name: Packages
 
 <body class="clr">
 <div class="tot">
+<ul class="pricing-table">
+	  <li class="title">Trial</li>
+	  <li class="price">Free</li>
+	  <li class="description">One full week</li>
+	  <li>One tester file</li>
+	  <li>Just that file</li>
+	  <li><a class="button" href="#">Test Now</a></li>
+	</ul>
 	<ul class="pricing-table">
 		<li class="title">Lite</li>
 		<li class="price">$9.99</li>
 		<li class="description">Small business</li>
 		<li>3MB/file</li>
 		<li>3GB of Storage</li>
-			<li><a class="button" href="#">Buy Now</a></li>
+		<li><a class="button" href="#">Buy Now</a></li>
 	</ul>
 	<ul class="pricing-table">
 		<li class="title">Pro</li>
