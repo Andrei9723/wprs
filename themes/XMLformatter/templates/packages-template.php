@@ -41,4 +41,10 @@ Template Name: Packages
 	</ul>
 </div>
 </body>
-<?php get_footer(); ?>
+		<footer class="footer-basic-centered bottomfoot">
+
+			<p class="footer-company-motto">XMLformatter , it's as simple as that!</p>
+
+			<p class="footer-company-name">RussMediaTech &copy; 2017</p>
+
+		</footer>
