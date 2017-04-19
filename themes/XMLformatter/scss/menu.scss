@@ -32,7 +32,7 @@
 }
 
 .clr{
-	background-color: #ababab;
+	background-color: white;
 }
 
 .tbl{
@@ -41,7 +41,7 @@
 	  padding-left: 2rem;
 	  padding-bottom: 2rem;
 	  font-family: Lucida ;
-	  box-shadow: 10px 10px 5px #888888;
+
 }
 
 h2.app{
@@ -57,16 +57,9 @@ img.floatLeft{
 
 img.floatRight{
 	float:right;
-	padding: 0rem;
+	padding:0rem;
 	margin-left: 3rem;
 	margin-right: 3rem;
-}
-
-#navdiv h3{
-	width: 300px;
-	float: left;
-	cursor: pointer;
-	margin-left: 15px;
 }
 
 ul.distance{

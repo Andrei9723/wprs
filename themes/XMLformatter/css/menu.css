@@ -25,15 +25,14 @@
   font-family: Lucida; }
 
 .clr {
-  background-color: #ababab; }
+  background-color: white; }
 
 .tbl {
   padding-top: 1rem;
   padding-right: 2rem;
   padding-left: 2rem;
   padding-bottom: 2rem;
-  font-family: Lucida;
-  box-shadow: 10px 10px 5px #888888; }
+  font-family: Lucida; }
 
 h2.app {
   font-family: Lucida; }
@@ -49,12 +48,6 @@ img.floatRight {
   padding: 0rem;
   margin-left: 3rem;
   margin-right: 3rem; }
-
-#navdiv h3 {
-  width: 300px;
-  float: left;
-  cursor: pointer;
-  margin-left: 15px; }
 
 ul.distance {
   padding-left: 35rem; }
