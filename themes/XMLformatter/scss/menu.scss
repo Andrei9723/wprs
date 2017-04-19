@@ -4,7 +4,7 @@
 }
 .spacem ul li h2 a{
 	position: relative;
-	padding: 0px 25px ;
+	padding: 0.1rem 2rem ;
 	font-family: Lucida ;
 	text-decoration: none;
 	color: black;
@@ -61,9 +61,18 @@ img.floatRight{
 	margin-right: 3rem;
 }
 
-.logo{
-	display: inline-flex;
-	position: relative;
-	background:transparent;
 
+#navdiv h3{
+	width: 300px;
+	float: left;
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+ul.distance{
+	padding-left:35rem;
+}
+.logo{
+	float:left;
+	padding: 0rem 0rem;
 }
