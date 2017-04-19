@@ -5,6 +5,5 @@
 			<p class="footer-company-name">RussMediaTech &copy; 2017</p>
 
 		</footer>
-<div class="status"></div>
 <?php wp_footer(); ?>
 </html>
