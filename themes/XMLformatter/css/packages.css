@@ -4,6 +4,7 @@
   margin-bottom: 17.35rem; }
 
 .pricing-table {
+  box-shadow: 10px 10px 5px #888888;
   background-color: #fefefe;
   border: solid 1px #cacaca;
   width: 100%;
@@ -37,6 +38,7 @@
   margin-bottom: 0px; }
 
 .button {
-  font-size: 10px; }
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=packages.css.map */
