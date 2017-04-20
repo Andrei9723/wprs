@@ -91,6 +91,7 @@ Template Name: Packages
   </div>
 
 </div>
+
 </body>
 
 <?php get_footer(); ?>
