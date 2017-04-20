@@ -1,11 +1,24 @@
-.tot{
-	display:inline-flex;
-	width: 99%;
-  margin-bottom: 19.89rem;
+/*----------------------------------------------V(Aranjare in spatiu)V------------------------------------------------------*/
+.contactus{
+	display: inline-flex;
+  width: 99%;
 }
+
+.asd{
+  width: 100%;
+}
+
+.footerbotom{
+  padding-bottom: 13rem;
+}
+.allpack{
+  box-shadow: 0 0 10px #888888;
+  margin: 3% auto;
+  width: 96%;
+}
+/*----------------------------------------------V(Tabela)V------------------------------------------------------*/
 .pricing-table {
   border-radius: 2px;
-  box-shadow: 10px 10px 5px #888888;
   background-color: #fefefe;
   border: solid 1px #cacaca;
   width: 100%;
@@ -46,27 +59,29 @@
 .pricing-table :last-child {
   margin-bottom: 0px;
 }
+.storage{
+  font-size:1rem;
+}
+/*----------------------------------------------V("Contact us" button)V------------------------------------------------------*/
 .button{
   width: 100%;
 }
 .button:hover, .button:focus {
 background-color: red;
 }
-.storage{
-  font-size:1rem;
-}
+/*----------------------------------------------V(Modal)V------------------------------------------------------*/
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 90%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; 
+    height: 90%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
 }
 
 /* Modal Content */
@@ -91,4 +106,14 @@ background-color: red;
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+/*----------------------------------V(Select option placeholder care dispare)V------------------------------------------------------*/
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
 }

@@ -4,8 +4,11 @@ Template Name: Packages
 */
 ?>
 <?php  get_header();?> 
+<!--                                                    v(Output tabele)v                                          -->
 <body class="clr">
-<div class="tot">
+<div class="footerbotom">
+<div class="allpack">
+<div class ="contactus">
 
 	<?php $args = array(
 			'post_type' => 'package'
@@ -13,17 +16,27 @@ Template Name: Packages
 	 $packages = get_posts($args);
 
 	foreach($packages as $package):?>
+	<div class ="contactus">
 	  <ul class="pricing-table">
 	  <li class="title"><?php echo $package->post_title; ?></li>
 	  <li class="price"><?php echo get_post_meta($package->ID, 'price', true);?></li>
 	  <li class="description"><?php echo $package->post_content; ?></li>
 	  <li class ="storage"><?php echo get_post_meta($package->ID, 'storage', true); ?></li>
-	  <li><a class="button" href="#">Constact us</a></li>
 	  </ul>
+	</div>
+
 	<?php
 	 endforeach;
 	 ?>
-<!-- 
+	 </div>
+	 <div class="asd">
+	 <a id="myBtn" class="button" >Contact us</a>
+	 </div>
+ </div>
+ </div>
+ <!--                                                A(Output tabele)A                                          -->
+
+<!-- tabelele vechi
 	
 	<ul class="pricing-table">
 		<li class="title">Lite</li>
@@ -49,12 +62,20 @@ Template Name: Packages
 	  <li class ="storage">10GB+ of Storage</li>
 	  <li><a id="myBtn" class="button" >Contact us</a></li>
 	</ul> -->
-</div>
+	<!--                                              V("Contact us" modal)V                                         -->
+
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
     	<form action="/action_page.php">
-  				<br>
+    		<select required name="packages">
+    			<option value="" disabled selected>Select your option</option>
+			  	<option value="free">Free</option>
+			  	<option value="lite">Lite</option>
+			  	<option value="pro">Pro</option>
+			  	<option value="corporation">Corporation</option>
+			</select><hr>
+  			
   			<input type="text" name="firstname" placeholder="Firstname" maxlength="30">
   			<br>
 			<input type="text" name="lastname" placeholder="Lastname" maxlength="30">
