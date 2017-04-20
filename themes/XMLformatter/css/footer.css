@@ -47,5 +47,9 @@
 
   .footer-basic-centered .footer-links a {
     line-height: 1.8; } }
+.bottomfoot {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=footer.css.map */
