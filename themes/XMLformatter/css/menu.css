@@ -49,17 +49,16 @@ img.floatRight {
   margin-left: 3rem;
   margin-right: 3rem; }
 
-#navdiv h3 {
-  width: 300px;
-  float: left;
-  cursor: pointer;
-  margin-left: 15px; }
-
 ul.distance {
   padding-left: 35rem; }
 
 .logo {
   float: left;
   padding: 0rem 0rem; }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=menu.css.map */

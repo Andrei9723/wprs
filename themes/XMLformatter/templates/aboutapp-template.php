@@ -14,6 +14,15 @@ Template Name: Aboutapp
 
 	<hr><?php endwhile; else: ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
+
+<!-- <div class="distancea"> 
+	<div class="distancec">
+		<p>text</p>
+	</div>
+	<div class= "distanceb">
+		<p>text</p>
+	</div> -->
+
 </div>
 
 </body>

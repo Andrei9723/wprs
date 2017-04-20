@@ -32,4 +32,6 @@ register_nav_menus(array(
 	'footer' => __('Footer Menu'),
 	));
 
+
 add_theme_support( 'post-thumbnails' );
+

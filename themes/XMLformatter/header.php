@@ -7,7 +7,7 @@
 
 	  	<div class="logo">
 
-	  <a href="http://local.xmlformater.ro/">	<img src="http://local.xmlformater.ro/wp-content/uploads/2017/04/logo-1024x172-2-300x50-1.png" > </a>
+	  <a href="http://local.xmlformater.ro/">	<img src="http://local.xmlformater.ro/wp-content/uploads/2017/04/logo-1024x172-2-300x50-1.png"  class="img-responsive"> </a>
 	  		</div>
 	  		<div class="menu-centered spacem inner-wrap  " >
 	  		<ul class="menu align-center " > 	

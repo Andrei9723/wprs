@@ -60,7 +60,7 @@ function save_package_meta( $post_id, $post, $update ) {
     // var_dump($post_id);exit;
     $post_type = get_post_type($post_id);
 
-    // If this isn't a 'book' post, don't update it.
+    // If this isn't a 'package' post, don't update it.
     if ( "package" != $post_type ) return;
 
     // - Update the post's metadata.

@@ -41,6 +41,7 @@
 	  padding-left: 2rem;
 	  padding-bottom: 2rem;
 	  font-family: Lucida ;
+
 }
 
 h2.app{
@@ -56,16 +57,9 @@ img.floatLeft{
 
 img.floatRight{
 	float:right;
-	padding: 0rem;
+	padding:0rem;
 	margin-left: 3rem;
 	margin-right: 3rem;
-}
-
-#navdiv h3{
-	width: 300px;
-	float: left;
-	cursor: pointer;
-	margin-left: 15px;
 }
 
 ul.distance{
@@ -74,4 +68,10 @@ ul.distance{
 .logo{
 	float:left;
 	padding: 0rem 0rem;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }

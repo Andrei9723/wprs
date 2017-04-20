@@ -34,7 +34,7 @@ Template Name: Packages
 	 </div>
  </div>
  </div>
- <!--                                                A(Output tabele)A                                          -->
+ <!--                                                (Tabela veche)V                                          -->
 
 <!-- tabelele vechi
 	
