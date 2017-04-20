@@ -56,4 +56,9 @@ ul.distance {
   float: left;
   padding: 0rem 0rem; }
 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
 /*# sourceMappingURL=menu.css.map */
