@@ -15,14 +15,9 @@ function awesome_script_enqueue() {
  
   				}
 
-  function register_my_scripts(){
-  	wp_deregister_script('jquery');
-  	wp_register_script('jquery', get_template_directory_uri() . '/Library/Foundation/js/vendor/foundation.js',array(),'1.0.0','true');
-  	wp_enqueue_script(array('jquery'));
-  }
 
 	add_action('wp_enqueue_scripts', 'awesome_script_enqueue');
-	add_action('wp_print_scripts','register_my_scripts');
+
 
 
 	//Navigation Menus
