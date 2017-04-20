@@ -6,7 +6,7 @@ Template Name: Packages
 <?php  get_header();?> 
 <!--                                                    v(Output tabele)v                                          -->
 <body class="clr">
-<div class="footerbotom">
+
 <div class="allpack">
 <div class ="contactus">
 
@@ -33,7 +33,9 @@ Template Name: Packages
 	 <a id="myBtn" class="button" >Contact us</a>
 	 </div>
  </div>
- </div>
+
+
+
  <!--                                                (Tabela veche)V                                          -->
 
 <!-- tabelele vechi
