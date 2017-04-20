@@ -4,12 +4,13 @@
   width: 99%; }
 
 .asd {
-  width: 100%; }
-
-.footerbotom {
-  padding-bottom: 13rem; }
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem; }
 
 .allpack {
+  padding-top: 3rem;
+  padding-bottom: 7rem;
   box-shadow: 0 0 10px #888888;
   margin: 4% auto;
   width: 97%; }
