@@ -4,17 +4,25 @@ include_once __DIR__ . '/Custom-Functions/shortcodes-Alex.php';
 function awesome_script_enqueue() {	
 	wp_enqueue_style('customstyle',get_template_directory_uri() . '/Library/Foundation/css/foundation.min.css', array(),'1.0.0','all');
 	wp_enqueue_style('customstyle',get_template_directory_uri() . '/Library/Foundation/css/normalize.css', array(),'1.0.0','all');
-    wp_enqueue_style('customscript',get_template_directory_uri() . '/Library/Foundation/js/vendor/foundation.js', array(),'1.0.0','all');
-    wp_enqueue_style('customscript',get_template_directory_uri() . '/Library/Foundation/js/vendor/jquery.js', array(),'1.0.0','all');
+    
+    wp_enqueue_style('cust',get_template_directory_uri() . '/Library/Foundation/js/vendor/jquery.js', array(),'1.0.0','all');
     wp_enqueue_style('customscript',get_template_directory_uri() . '/Library/Foundation/js/vendor/what-input.js', array(),'1.0.0','all');
     wp_enqueue_style('menu',get_template_directory_uri() . '/css/menu.css', array(),'1.0.0','all');
     wp_enqueue_style('stick',get_template_directory_uri() . '/js/stickyy.js', array(),'1.0.0','all');
     wp_enqueue_style('packages',get_template_directory_uri() . '/css/packages.css', array(),'1.0.0','all');
     wp_enqueue_style('footer',get_template_directory_uri() . '/css/footer.css', array(),'1.0.0','all');
     wp_enqueue_style('metaslider',get_template_directory_uri() . '/css/metaslider.css', array(),'1.0.0','all');
+ 
   				}
 
+  function register_my_scripts(){
+  	wp_deregister_script('jquery');
+  	wp_register_script('jquery', get_template_directory_uri() . '/Library/Foundation/js/vendor/foundation.js',array(),'1.0.0','true');
+  	wp_enqueue_script(array('jquery'));
+  }
+
 	add_action('wp_enqueue_scripts', 'awesome_script_enqueue');
+	add_action('wp_print_scripts','register_my_scripts');
 
 
 	//Navigation Menus
@@ -25,14 +33,4 @@ function awesome_script_enqueue() {
 
 add_theme_support( 'post-thumbnails' ); 
 	
-	add_filter( 'menu_image_default_sizes',function($sizes){
-			 // remove the default 36x36 size
-			unset($sizes['menu-36x36']);
-
-			// add a new size
-			$sizes['menu-50x50'] = array(50,50);
-
-			// return $sizes (required)
-			return $sizes;
-});
 

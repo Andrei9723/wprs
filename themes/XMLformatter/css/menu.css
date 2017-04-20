@@ -32,7 +32,8 @@
   padding-right: 2rem;
   padding-left: 2rem;
   padding-bottom: 2rem;
-  font-family: Lucida; }
+  font-family: Lucida;
+  text-align: center; }
 
 h2.app {
   font-family: Lucida; }
