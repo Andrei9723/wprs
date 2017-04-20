@@ -1,4 +1,8 @@
 <?php 
+// add package setings
+
+// var_dump(dirname(__FILE__)  . '/functions/package.php');exit;
+require_once dirname(__FILE__)  . '/functions/package.php';
 
 function awesome_script_enqueue() {	
 	wp_enqueue_style('customstyle',get_template_directory_uri() . '/Library/Foundation/css/foundation.min.css', array(),'1.0.0','all');
@@ -41,4 +45,3 @@ add_filter( 'menu_image_default_sizes',function($sizes){
 // return $sizes (required)
 		return $sizes;
 	});
-
