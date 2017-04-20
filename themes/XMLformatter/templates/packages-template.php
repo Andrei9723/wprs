@@ -4,9 +4,11 @@ Template Name: Packages
 */
 ?>
 <?php  get_header();?> 
+<!--                                                    v(Output tabele)v                                          -->
 <body class="clr">
-<div class="tot">
-
+<div class="footerbotom">
+<div class="allpack">
+<div class ="contactus">
 
 	<?php $args = array(
 			'post_type' => 'package'
@@ -14,27 +16,35 @@ Template Name: Packages
 	 $packages = get_posts($args);
 
 	foreach($packages as $package):?>
+	<div class ="contactus">
 	  <ul class="pricing-table">
 	  <li class="title"><?php echo $package->post_title; ?></li>
 	  <li class="price"><?php echo get_post_meta($package->ID, 'price', true);?></li>
 	  <li class="description"><?php echo $package->post_content; ?></li>
 	  <li class ="storage"><?php echo get_post_meta($package->ID, 'storage', true); ?></li>
-	  <li><button id="myBtn" class="button">Constact us</button></li>
-
 	  </ul>
+	</div>
+
 	<?php
 	 endforeach;
 	 ?>
-<!-- 
+	 </div>
+	 <div class="asd">
+	 <a id="myBtn" class="button" >Contact us</a>
+	 </div>
+ </div>
+ </div>
+ <!--                                                (Tabela veche)V                                          -->
+
+<!-- tabelele vechi
 	
->>>>>>> 5faf4a89a0bf7d3ec5af88eae4d8a75938c46d69
 	<ul class="pricing-table">
 		<li class="title">Lite</li>
 		<li class="price">$9.99</li>
 		<li class="description">Small business</li>
 		<li class ="storage">3MB/file</li>
 		<li class ="storage">3GB of Storage</li>
-		<li><a class="button" id="myBtn">Buy Now</a></li>
+		<li><a class="button" href="#">Buy Now</a></li>
 	</ul>
 	<ul class="pricing-table">
 		<li class="title">Pro</li>
@@ -42,7 +52,7 @@ Template Name: Packages
 		<li class="description">Best Deal</li>
 		<li class ="storage">3MB/file</li>
 		<li class ="storage">10GB of Storage</li>
-		<li><a class="button" id="myBtn">Buy Now</a></li>
+		<li><a class="button" href="#">Buy Now</a></li>
 	</ul>
 	<ul class="pricing-table">
 	  <li class="title">Corporation</li>
@@ -50,20 +60,22 @@ Template Name: Packages
 	  <li class="description">Super high trafic</li>
 	  <li class ="storage">3MB/file</li>
 	  <li class ="storage">10GB+ of Storage</li>
-<<<<<<< HEAD
-	  <li><button type="button" id="myBtn"> Contact us</button></li>
-	</ul>
-=======
 	  <li><a id="myBtn" class="button" >Contact us</a></li>
 	</ul> -->
-
-</div>
+	<!--                                              V("Contact us" modal)V                                         -->
 
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    	<form method="post">
-  				<br>
+    	<form action="/action_page.php">
+    		<select required name="packages">
+    			<option value="" disabled selected>Select your option</option>
+			  	<option value="free">Free</option>
+			  	<option value="lite">Lite</option>
+			  	<option value="pro">Pro</option>
+			  	<option value="corporation">Corporation</option>
+			</select><hr>
+  			
   			<input type="text" name="firstname" placeholder="Firstname" maxlength="30">
   			<br>
 			<input type="text" name="lastname" placeholder="Lastname" maxlength="30">
@@ -79,7 +91,6 @@ Template Name: Packages
   </div>
 
 </div>
-
 </body>
 
 <?php get_footer(); ?>
