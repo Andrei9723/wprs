@@ -5,7 +5,7 @@ Template Name: Packages
 ?>
 <?php  get_header();?> 
 <!--                                                    v(Output tabele)v                                          -->
-<body class="clr">
+<body class="all">
 <div class="footerbotom">
 <div class="allpack">
 <div class ="contactus">
