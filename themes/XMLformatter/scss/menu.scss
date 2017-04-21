@@ -1,6 +1,7 @@
 .spacem {
 
 	background: #666666;
+
 }
 .spacem ul li h2 a{
 	position: relative;
@@ -23,6 +24,7 @@
 	  padding-top:5rem;
 	  padding-right: 5rem;
 	  padding-left: 5rem;
+
 }
 
 .align{
@@ -33,15 +35,16 @@
 
 .clr{
 	background-color: white;
+
+    
 }
 
 .tbl{
 	  padding-top: 1rem;
-	  padding-right: 2rem;
-	  padding-left: 2rem;
+	  padding-right: 5rem;
+	  padding-left: 5rem;
 	  padding-bottom: 2rem;
-	  font-family: Lucida ;
-
+	  font-family: Lucida ; 	
 }
 
 h2.app{
@@ -68,10 +71,4 @@ ul.distance{
 .logo{
 	float:left;
 	padding: 0rem 0rem;
-}
-
-.img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }

@@ -6,9 +6,10 @@ Template Name: Packages
 <?php  get_header();?> 
 <!--                                                    v(Output tabele)v                                          -->
 <body class="clr">
-
+<div class="footerbotom">
 <div class="allpack">
 <div class ="contactus">
+
 
 	<?php $args = array(
 			'post_type' => 'package'
@@ -33,10 +34,14 @@ Template Name: Packages
 	 <a id="myBtn" class="button" >Contact us</a>
 	 </div>
  </div>
+<<<<<<< HEAD
 
 <?php var_dump($package)?>
 
 <?php echo do_shortcode("[metaslider id=123]");?>
+=======
+ </div>
+>>>>>>> 32707723e955c7c2fe594e161e065d7f3d82aaab
  <!--                                                (Tabela veche)V                                          -->
 
 <!-- tabelele vechi
@@ -94,6 +99,7 @@ Template Name: Packages
   </div>
 
 </div>
+
 </body>
 
 <?php get_footer(); ?>
