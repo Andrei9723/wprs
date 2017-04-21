@@ -33,11 +33,10 @@ Template Name: Packages
 	 <a id="myBtn" class="button" >Contact us</a>
 	 </div>
  </div>
-	<pre>
+
 <?php var_dump($package)?>
-	</pre>
 
-
+<?php echo do_shortcode("[metaslider id=123]");?>
  <!--                                                (Tabela veche)V                                          -->
 
 <!-- tabelele vechi
