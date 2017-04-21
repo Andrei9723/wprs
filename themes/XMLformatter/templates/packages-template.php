@@ -6,38 +6,34 @@ Template Name: Packages
 <?php  get_header();?> 
 <!--                                                    v(Output tabele)v                                          -->
 <body class="all">
-	<div class="footerbotom">
-		<div class="allpack">
-			<div class ="aligntb">
+	<div class="allpack">
+		<div class ="aligntb">
+			<?php $args = array(
+					'post_type' => 'package'
+				);
+			 $packages = get_posts($args);
 
+			foreach($packages as $package):?>
+				<div class ="alignt">
+				  <ul class="pricing-table">
+				  <li class="title"><?php echo $package->post_title; ?></li>
+				  <li class="price"><?php echo get_post_meta($package->ID, 'price', true);?></li>
+				  <li class="description"><?php echo $package->post_content; ?></li>
+				  <li class ="storage"><?php echo get_post_meta($package->ID, 'storage', true); ?></li>
+				  </ul>
+				</div>
 
-				<?php $args = array(
-						'post_type' => 'package'
-					);
-				 $packages = get_posts($args);
-
-				foreach($packages as $package):?>
-					<div class ="alignt">
-					  <ul class="pricing-table">
-					  <li class="title"><?php echo $package->post_title; ?></li>
-					  <li class="price"><?php echo get_post_meta($package->ID, 'price', true);?></li>
-					  <li class="description"><?php echo $package->post_content; ?></li>
-					  <li class ="storage"><?php echo get_post_meta($package->ID, 'storage', true); ?></li>
-					  </ul>
-					</div>
-
-				<?php
-				 endforeach;
-				 ?>
-		 	</div>
-			<div class="contactusbutt">
-				<a id="myBtn" class="button" >Contact us</a>
-			</div>
-			<div class="disclaimer">
-			Prices may be changed at any time without further notice. We reserve the right to change our product's prices at any time without further notice. However, if you have ordered but not yet paid for a product, we guarantee the price for one month from when the order was placed.
-			</div>
+			<?php
+			 endforeach;
+			 ?>
+	 	</div>
+		<div class="contactusbutt">
+			<a id="myBtn" class="button" >Contact us</a>
 		</div>
- 	</div>
+		<div class="disclaimer">
+		Prices may be changed at any time without further notice. We reserve the right to change our product's prices at any time without further notice. However, if you have ordered but not yet paid for a product, we guarantee the price for one month from when the order was placed.
+		</div>
+	</div>
 	 <!--                                                (Tabela veche)V                                          -->
 
 	<!-- tabelele vechi
@@ -67,11 +63,10 @@ Template Name: Packages
 		  <li><a id="myBtn" class="button" >Contact us</a></li>
 		</ul> -->
 		<!--                                              V("Contact us" modal)V                                         -->
-
 	<div id="myModal" class="modal">
 	  <div class="modal-content">
 	    <span class="close">&times;</span>
-	    	<form action="/action_page.php">
+	    	<form action="">
 	    		<select required name="packages">
 	    			<option value="" disabled selected>Select your option</option>
 				  	<option value="free">Free</option>

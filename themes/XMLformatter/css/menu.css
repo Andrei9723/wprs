@@ -24,4 +24,7 @@
 ul.distance {
   padding-left: 35rem; }
 
+.current-menu-item a {
+  background: red; }
+
 /*# sourceMappingURL=menu.css.map */
