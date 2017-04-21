@@ -21,4 +21,9 @@
 .all {
   background-color: white; }
 
+.current-menu-item a {
+  background-color: red;
+  color: red;
+  border-radius: 4rem; }
+
 /*# sourceMappingURL=menu.css.map */

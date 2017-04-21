@@ -1,53 +1,45 @@
 .responsive-blog-footer {
   background: #4b4b4b;
   padding: 3rem 3rem;
-  color: white;
-}
+  color: white; }
 
+/*----------------------------------------------V(footer Positioning)V------------------------------------------------------*/
 @media screen and (max-width: 39.9375em) {
   .responsive-blog-footer h4 {
-    font-size: 1.5rem;
-  }
-}
-
+    font-size: 1.5rem; } }
 .responsive-blog-footer p {
-  color: #8a8a8a;
-}
+  color: #8a8a8a; }
 
 .responsive-blog-footer .mailing-list {
-  margin-bottom: 1.5rem;
-}
+  margin-bottom: 1.5rem; }
 
 .responsive-blog-footer .mailing-container {
-  margin-bottom: 2rem;
-}
+  margin-bottom: 2rem; }
 
 .responsive-blog-footer .about-section, .responsive-blog-footer .tag-section {
-  margin-bottom: 2rem;
-}
+  margin-bottom: 2rem; }
 
+/*----------------------------------------------V(read more button)V------------------------------------------------------*/
 .responsive-blog-footer .about-section a, .responsive-blog-footer .tag-section a {
-  color: #1779ba;
-}
+  color: #1779ba; }
 
+/*----------------------------------------------V(SubScribe button)V------------------------------------------------------*/
 .responsive-blog-footer .subscribe-button {
-  background-color: #1779ba;
-}
+  background-color: #1779ba; }
 
+/*----------------------------------------------V(Subscribe button hover)V------------------------------------------------------*/
 .responsive-blog-footer .subscribe-button:hover {
   background-color: #146aa3;
-  transition: color 0.3s ease-in;
-}
+  transition: color 0.3s ease-in; }
 
+/*----------------------------------------------V(To Top button)V------------------------------------------------------*/
 .responsive-blog-footer .fa-chevron-circle-up {
   font-size: 3rem;
-  color: #8a8a8a;
-}
+  color: #8a8a8a; }
 
+/*----------------------------------------------V(To TOP button hover)V------------------------------------------------------*/
 .responsive-blog-footer .fa-chevron-circle-up:hover {
   color: #b0b0b0;
-  transition: color 0.3s ease-in;
-}
-
+  transition: color 0.3s ease-in; }
 
 /*# sourceMappingURL=footer.css.map */

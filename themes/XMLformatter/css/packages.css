@@ -1,12 +1,13 @@
 /*----------------------------------------------V(Aranjare in spatiu)V------------------------------------------------------*/
-.contactus {
+.aligntb {
   display: inline-flex;
+  /*(align table with button)*/
   width: 99%; }
 
-.asd {
-  width: 100%;
-  padding-right: 1rem;
-  padding-left: 1rem; }
+.alignt {
+  display: inline-flex;
+  /*alignt(align tabels)*/
+  width: 99%; }
 
 .allpack {
   padding-top: 3rem;
@@ -56,6 +57,11 @@
   font-size: 1rem; }
 
 /*----------------------------------------------V("Contact us" button)V------------------------------------------------------*/
+.contactusbutt {
+  padding-top: 2rem;
+  padding-right: 40rem;
+  padding-left: 40rem; }
+
 .button {
   width: 100%; }
 
@@ -106,5 +112,12 @@ option[value=""][disabled] {
 
 option {
   color: black; }
+
+/*----------------------------------V(Disclaimer)V------------------------------------------------------*/
+.disclaimer {
+  color: grey;
+  padding-top: 5rem;
+  padding-right: 20rem;
+  padding-left: 20rem; }
 
 /*# sourceMappingURL=packages.css.map */

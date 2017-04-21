@@ -19,6 +19,7 @@
 	border-radius: 4rem;
 
 }
+
 .logo{
 	float:left;
 	padding: 0rem 0rem;
@@ -30,3 +31,8 @@
     
 }
 
+.current-menu-item a{
+	background-color: red;
+	color: red;
+	border-radius: 4rem;
+}
