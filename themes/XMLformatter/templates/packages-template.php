@@ -34,14 +34,9 @@ Template Name: Packages
 	 <a id="myBtn" class="button" >Contact us</a>
 	 </div>
  </div>
-<<<<<<< HEAD
 
-<?php var_dump($package)?>
-
-<?php echo do_shortcode("[metaslider id=123]");?>
-=======
  </div>
->>>>>>> 32707723e955c7c2fe594e161e065d7f3d82aaab
+
  <!--                                                (Tabela veche)V                                          -->
 
 <!-- tabelele vechi

@@ -38,9 +38,3 @@ register_nav_menus(array(
 add_theme_support( 'post-thumbnails' );
 //--------------------    ---v(<pre> automat pentru var_dump())v------------------------------------------------//
 
-function var_dump_pre($packages) {
-  echo '<pre>';
-  var_dump($packages);
-  echo '</pre>';
-  return null;
-}
