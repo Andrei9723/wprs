@@ -34,35 +34,8 @@ Template Name: Packages
 		Prices may be changed at any time without further notice. We reserve the right to change our product's prices at any time without further notice. However, if you have ordered but not yet paid for a product, we guarantee the price for one month from when the order was placed.
 		</div>
 	</div>
-	 <!--                                                (Tabela veche)V                                          -->
+</div>
 
-	<!-- tabelele vechi
-		
-		<ul class="pricing-table">
-			<li class="title">Lite</li>
-			<li class="price">$9.99</li>
-			<li class="description">Small business</li>
-			<li class ="storage">3MB/file</li>
-			<li class ="storage">3GB of Storage</li>
-			<li><a class="button" href="#">Buy Now</a></li>
-		</ul>
-		<ul class="pricing-table">
-			<li class="title">Pro</li>
-			<li class="price">$49.99</li>
-			<li class="description">Best Deal</li>
-			<li class ="storage">3MB/file</li>
-			<li class ="storage">10GB of Storage</li>
-			<li><a class="button" href="#">Buy Now</a></li>
-		</ul>
-		<ul class="pricing-table">
-		  <li class="title">Corporation</li>
-		  <li class="price">$99.99</li>
-		  <li class="description">Super high trafic</li>
-		  <li class ="storage">3MB/file</li>
-		  <li class ="storage">10GB+ of Storage</li>
-		  <li><a id="myBtn" class="button" >Contact us</a></li>
-		</ul> -->
-		<!--                                              V("Contact us" modal)V                                         -->
 	<div id="myModal" class="modal">
 	  <div class="modal-content">
 	    <span class="close">&times;</span>

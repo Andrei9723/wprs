@@ -21,8 +21,10 @@
 .all {
   background-color: white; }
 
-ul.distance {
-  padding-left: 35rem; }
+.current-menu-item a {
+  background-color: red;
+  color: red;
+  border-radius: 4rem; }
 
 .current-menu-item a {
   background: red; }

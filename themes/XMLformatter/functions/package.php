@@ -42,7 +42,7 @@ function render_settings(){
 
 	if($package){
 		$price = get_post_meta($package->ID, 'price', true);
-		$storage = get_post_meta($package->ID, 'caca', true);
+		$storage = get_post_meta($package->ID, 'storage', true);
 	}
 	?>
 	<input name="price" id="price" type="text" placeholder="<?php echo __('Price')?>" value="<?php echo $price?>" />
