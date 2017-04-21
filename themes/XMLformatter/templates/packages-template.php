@@ -33,7 +33,9 @@ Template Name: Packages
 	 <a id="myBtn" class="button" >Contact us</a>
 	 </div>
  </div>
-
+	<pre>
+<?php var_dump($package)?>
+	</pre>
 
 
  <!--                                                (Tabela veche)V                                          -->
