@@ -15,6 +15,7 @@ function awesome_script_enqueue() {
     wp_enqueue_style('metaslider',get_template_directory_uri() . '/css/metaslider.css', array(),'1.0.0','all');
     wp_enqueue_style('modal',get_template_directory_uri() . '/js/popup.js', array(),'1.0.0','all');
     wp_enqueue_style('home',get_template_directory_uri() . '/css/home.css', array(),'1.0.0','all');
+    wp_enqueue_style('aboutt',get_template_directory_uri() . '/css/about.css', array(),'1.0.0','all');
 }
 //-----------------------------------------v(script enqueue)v---------------------------------------//
 add_action('wp_enqueue_scripts', 'awesome_script_enqueue');
